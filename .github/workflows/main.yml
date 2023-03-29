@@ -1,0 +1,5 @@
+- name: GitHub Pages URL shortener
+  uses: zziger/url-shortener-action@v1.1
+  with:
+    json: './config.json'
+    template: './mytemplate.html'
