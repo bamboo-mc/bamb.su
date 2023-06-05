@@ -1,42 +1,124 @@
 <html>
 <head>
-<title>Бамбук</title>
+<title>minecis</title>
 <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/107627063">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<meta name="description" content="minecis website :)">
+<meta property="og:url" content="https://bamb.su">
+<meta property="og:title" content="minecis // главная">
+<meta property="og:description" content="minecis website :)">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site:name" content="minecis">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="minecis">
+<meta property="twitter:description" content="minecis website :)">
+</head>
 <style>
-* {
-  font-family: 'Montserrat', sans-serif;
-}
-
 body {
-  background: #000000;
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
   color: white;
-  overflow: hidden;
+
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
-iframe {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
+.allow_to_copy {
+  -moz-user-select: text;
+  -khtml-user-select: text;
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+img.squad {
+  width: 200px;
+  height: 315px;
+  border-radius: 0%;
+}
+
+div {
+  margin: auto;
+  position: relative;
+  text-align: center;
+  margin-top: 200px;
+}
+
+a {
+  color: rgb(155, 225, 255);
+  transition: 0.25s;
+  text-decoration: none;
+}
+
+a#auth-panel {
+  color: rgb(255, 22, 22);
+  transition: 0.25s;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 85%;
+}
+
+a#auth-panel:hover {
+  opacity: 95%;
+}
+
+.my_name {
+  cursor: pointer;
+  transition: 0.25s;
+  color: rgb(224, 200, 255);
+}
+
+.my_name:hover {
+  opacity: 85%;
+}
+
+::-webkit-scrollbar-button {
+  width: 10px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #23272a;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  background-color: #2e3136;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #35383c;
+}
+
+::-webkit-resizer {
+  width: 10px;
+  height: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+#scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: calc(100vh - 60px);
+  -webkit-overflow-scrolling: touch;
 }
 </style>
 </head>
 <body>
-<iframe src="https://www.youtube-nocookie.com/embed/hrossvqfHuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-<script>
-alert([
-  `Поддержка проекта прекращена из-за отсутствия финансирования нашей деятельности.`,
-  ``,
-  `Глава проекта про будущее Бамбука: https://t.me/d1nos4urr/302`,
-  `Ссылки на скачивание карт 1 и 2 сезона: https://t.me/cipherka/782`,
-  `Спасибо за вашу поддержку на протяжении жизни проекта. Мы надеемся на скорое возрождение.`
-].join("\n"));
-</script>
+  <p>
+    <a href="https://vk.com/minecis">vk group</a>
+    <br><a href="https://discordserver.info/1106538890782838794">discord community</a>
+    <br><br><img id="squad" src="https://sqdsh.top/static/shinoa-im-amazing.gif">
+  </p>
 </body>
 </html>
