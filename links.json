@@ -10,15 +10,9 @@
         "rp": "https://rp.bamb.su",
         "seasons": "https://seasons.bamb.su",
         "features": "https://features.bamb.su",
-        "vk": "https://vk.com/mc.bamboo",
-        "discord": "https://discord.gg/6sFrxFSuPz",
-        "tg": "https://t.me/mc_bamboo",
-        "tgbot": "https://t.me/mcbamboo_bot",
-        "vc": "https://modrinth.com/mod/plasmo-voice",
-        "donate": {
-            "ru": "https://qiwi.com/n/REDINAL",
-            "ua": "https://send.monobank.ua/jar/g14EhUsAD",
-            "world": "https://donatello.to/bamb"
-        }
+
+        "vk": "https://vk.com/minecis",
+        "discord": "https://discordserver.info/1106538890782838794",
+        "donate": "https://qiwi.com/n/REDINAL"
     }
 }
